@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/* CSS Document */
+.candidate-module {
+	font-family:Arial, Helvetica, sans-serif;
+	border-style:solid;
+	border-width:1px;
+	border-color:#999;
+	width:300px;
+	padding:10px;
+	float:right;
+	margin:5px;
+}
+.candidate-module .profile .profile-photo{
+	float:left;
+	padding:10px;
+}
+.candidate-module .profile .name{
+	color:#333;
+	font-size:18px;
+	font-weight:bold;
+}
+.candidate-module .profile .race{
+	font-size:15px;
+	font-weight:bold;
+	color:#666;
+}
+.candidate-module .profile .type{
+	font-size:15px;
+	font-weight:bold;
+	color:#CCC;
+}
+.candidate-module .profile .party-description{
+	font-size:15px;
+	font-weight:bold;
+	color:#999;
+}
+.candidate-module .profile .profile-description{
+	font-size:12px;
+	font-weight:bold;
+	color:#63C;
+}
+.candidate-module ul{
+	padding-left:20px; 
+	margin:0; 
+} 
+.candidate-module li { 
+	list-style-type:none; 
+} 
+.candidate-module .section {
+	border-top-color:#CCC ;
+	border-top-style: solid;
+	border-top-width: 1px;
+	margin:10px 0px 10px 0px;
+	padding:10px 10px 0px 10px;
+}
+.candidate-module .section .header{
+	font-size:15px;
+	color:#666;
+	font-weight:bold;
+	margin-bottom:10px;
+}
+.candidate-module .body-text {
+	font-size:12px;
+}
+.candidate-module .quote-text {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:15px;
+	padding:20px;
+	text-align:block;
+}
+.candidate-module .fundraising .description{
+	font-size:15px;
+	color:#999;
+}
+.candidate-module .fundraising .amount{
+	font-size:15px;
+	font-weight:bold;
+	color:#333;
+}
+.candidate-module .fundraising .description{
+    font-size:15px;
+    color:#999;
+}
+.candidate-module .fundraising .amount{
+    font-size:15px;
+    font-weight:bold;
+    color:#333;
+}
+
+.candidate-module #credits {
+	text-align: center;
+	font-size: 12px;
+	color: #999;
+}
